@@ -1,0 +1,44 @@
+GetBalance
+NC_CLI command: getbalance [address]
+
+Confirmed= 21284.911865 VBK
+Pending= 82.4981298 VBK
+---------------------
+
+GetBlockByHash
+NC_CLI command: getblockfromhash <blockHash>
+
+BlockIndex= 100
+---------------------
+
+NC_CLI command: getstateinfo
+NetworkHeight= 0
+NetworkVersion= Alpha
+LocalBlockchainHeight= 270
+---------------------
+
+GetBlockByIndex
+NC_CLI command: getblockfromindex <blockIndex>
+
+BlocksHash= 00000000b4316a043aa23f327a2b19f9e23fafd0356e48a8
+---------------------
+
+NC_CLI command: getinfo
+LastBlock.Hash= 00000000fe4b85dd7d31f69321f20d82751620ed41883c2c
+EstimatedHasrate= 5233732 h/s
+GetNewAddress
+NC_CLI command: getnewaddress
+
+New address: VD5em6Hhrd6n1s87MrshwKqXEJCiin
+------------------
+
+SendTransaction
+NC_CLI command: send <amount> <destinationAddress> [sourceAddress]
+Created transaction: b3af8abb8d3ab0bc49b16ca0470933f18b11a34e4e8df72b02ca0a5c33db5023
+---------------------
+
+GetTransactionById
+NC_CLI command: gettransaction <txId> [searchLength]
+
+BlockIndex= 255, sourseAmount= 82.5
+---------------------
